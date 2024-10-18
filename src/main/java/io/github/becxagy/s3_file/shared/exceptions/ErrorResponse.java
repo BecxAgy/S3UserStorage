@@ -1,0 +1,20 @@
+package io.github.becxagy.s3_file.shared.exceptions;
+
+public class ErrorResponse {
+	private int status;
+	private String message;
+
+	public ErrorResponse(int status, String message) {
+		this.status = status;
+		this.message = message;
+	}
+
+	public int getStatus() {
+		return status;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+}

@@ -20,6 +20,7 @@ public class StorageService implements StorageUseCase {
 
     @Override
     public void deleteFile(String fileName) {
+         storagePort.delete(fileName);
 
     }
 }

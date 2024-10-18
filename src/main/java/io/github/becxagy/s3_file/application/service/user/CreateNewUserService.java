@@ -9,5 +9,8 @@ public class CreateNewUserService implements CreateUserUseCase {
     @Override
     public void create(User user) {
 
+        System.out.println("url user"+ user.getImageUrl());
+        System.out.println("name user"+ user.getName());
+
     }
 }
